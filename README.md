@@ -44,7 +44,8 @@ Run the script to generate cards:
     - Check "Allow HTML in fields".
 
 ## Preview
-
+![Front](screenshots/card-front.png)
+![Back](screenshots/card-back.png)
 
 ## Notes
 - Arabic font may require "Traditional Arabic" or "Scheherazade" installed.
