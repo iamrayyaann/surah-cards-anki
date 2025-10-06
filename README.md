@@ -1,5 +1,5 @@
 # Surah Cards Generator for Anki
-[![Static Badge](https://img.shields.io/badge/License-MIT-blue)](https://github.com/iamrayyaann/Sawm/blob/main/LICENSE)
+[![Static Badge](https://img.shields.io/badge/License-MIT-blue)](https://github.com/iamrayyaann/surah-cards-anki/blob/main/LICENSE)
 
 Generate Anki flashcards for Quran Surahs using the [Al-Quran Cloud API](https://alquran.cloud/api). Creates clean, minimal cards with Arabic (Uthmani), transliteration, and translation.
 
