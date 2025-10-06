@@ -1,6 +1,7 @@
-# Surah Anki Deck Generator
+# Surah Cards Generator for Anki
+[![Static Badge](https://img.shields.io/badge/License-MIT-blue)](https://github.com/iamrayyaann/Sawm/blob/main/LICENSE)
 
-Generate Anki flashcards for Quran Surahs using the [Al-Quran Cloud API](https://alquran.cloud/api). Creates clean, minimal cards with Arabic (Uthmani), transliteration, and Yusuf Ali translation.
+Generate Anki flashcards for Quran Surahs using the [Al-Quran Cloud API](https://alquran.cloud/api). Creates clean, minimal cards with Arabic (Uthmani), transliteration, and translation.
 
 <image-card alt="Front of Al-Fatiha card" src="screenshots/al-fatiha-front.png" ></image-card>
 <image-card alt="Back of Al-Fatiha card" src="screenshots/al-fatiha-back.png" ></image-card>
@@ -15,6 +16,7 @@ Generate Anki flashcards for Quran Surahs using the [Al-Quran Cloud API](https:/
 - **Python 3.8+**: Install from [python.org](https://www.python.org/downloads/).
 - **Requests Library**: `pip install requests`.
 - **Anki**: Install from [apps.ankiweb.net](https://apps.ankiweb.net).
+- Arabic font may require "Traditional Arabic" or "Scheherazade" installed.
 
 ## Setup
 1. Clone this repo:
@@ -35,7 +37,6 @@ Run the script to generate cards:
     ```bash
     python3 generate_surah_cards.py "110-114"
     ```
-
 - Outputs `surahs.csv`.
 - Import into Anki:
     - File > Import > Select surahs.csv.
@@ -46,8 +47,3 @@ Run the script to generate cards:
 ## Preview
 ![Front](screenshots/card-front.png)
 ![Back](screenshots/card-back.png)
-
-## Notes
-- Arabic font may require "Traditional Arabic" or "Scheherazade" installed.
-- API handles Bismillah (included for all Surahs except 9).
-- Tested with Surahs 1-114.
